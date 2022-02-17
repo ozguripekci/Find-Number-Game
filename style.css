@@ -1,0 +1,78 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./images/back.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header{
+    text-align: center;
+    padding: 20px 20px;
+}
+
+#header h1{
+    font-size: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 20px 20px;
+    width: 550px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.623);
+    color: aliceblue;
+    cursor: pointer;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+#article{
+    text-align: center;
+}
+
+#guess{
+
+    margin: 20px 0 10px;
+    border-radius: 30px;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.514);
+    color: rgb(0, 0, 0);
+}
+
+#submit{
+    margin-top: 10px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 255, 0.842);
+    color: aliceblue;
+    cursor: pointer;
+    width: 100px;
+
+}
+
+#article img{
+    width: 20%;
+    margin-top: 25px;
+}
+
+
+#footer{
+    text-align: center;
+}
+
+.newgame{
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    margin: 10px 0 10px;
+    font-size: 1.2rem;
+}
+
+.newgame:hover{
+    background-color: rgba(255, 0, 255, 0.603);
+    color: aliceblue;
+    
+}
